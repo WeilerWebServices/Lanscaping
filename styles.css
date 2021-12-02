@@ -1,0 +1,116 @@
+/* Making page border box */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+/* Page height and text setting */
+
+html,
+body {
+    height: 100%;
+    text-align: center;
+}
+
+
+/* Responsive images */
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Navigation Bar sticky to be scrollable with page */
+
+header {
+    background-color: lightblue;
+    width: 100%;
+    position: fixed;
+    color: rgb(17, 22, 41);
+    top: 0;
+    padding: 20px 0;
+}
+
+
+/* Navigation Bar anchor styling */
+
+header a {
+    font-size: 20px;
+    color: black;
+    width: auto;
+    padding: 25px 10px;
+    text-decoration: none;
+}
+
+
+/* Navigation Bar anchor hover color */
+
+nav a: hover {
+    background-color: yellow;
+}
+
+
+/* Same styling for home, about, contact */
+
+#home,
+#about,
+#contact
+#busines {
+    margin: 0;
+    padding: 100px 0 100px 0;
+    width: 100%;
+}
+
+
+/* Home background image */
+
+#home {
+    background-color: white;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+}
+
+
+/* About background image */
+
+#about {
+}
+
+
+/* About styling */
+
+#about {
+    background-color: white;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+}
+
+
+/* Contact styling */
+
+#contact {
+    background-color: white;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+}
+
+
+/* Footer styling */
+
+footer {
+    text-align: center;
+    position: sticky;
+    margin: 0;
+    bottom: 0px;
+    color: rgb(17, 22, 41);
+    background-color: lightblue;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 26px;
+    height: auto;
+}
